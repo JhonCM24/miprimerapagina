@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+ol, ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    display: flex;
+    background-color: darkgrey;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul {
+    display: flex;
+    gap: 2em;
+}
+
+header nav ul li a {
+    color: black    ;
+}
+
+header a i {
+    font-size: 40px;
+    padding: 0.5em;
+}
+
+.seccion-1 {
+    display: flex;
+    text-align: center;
+    padding: 50px;
+    align-items: center;
+}
+
+.dylan img{
+    display: flex;
+    height: 500px;
+    padding: 50px;
+    border-radius: 75px;
+}
+
+.signo img {
+    display: flex;
+    height: 500px;
+    width: 100%;
+}
+
+footer {
+    background-color: darkgray;
+}
+
+footer h3 {
+    color: darkblue;
+}
+
+footer li {
+    color: slateblue;
+}
+
+.Trabajos {
+    display: flex;
+    border: solid black 2.5px;
+    color: cornflowerblue;
+}
+
+.imagen {
+    height: 250px;
+    width: 250px;
+    border-radius: 25px;
+}
+
+.Trabajos div {
+    padding: 50px;
+}
+
+.Trabajos p {
+    display: flex;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#trabajos {
+    color: blue;
+
+}
